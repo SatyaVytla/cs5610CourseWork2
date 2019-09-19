@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>HW02</title>
+        </head>
+                <body>
+                        <h1>Home Work 2 Page </h1>
+                        <div>
+                           <a href="http://www.cs5610web.space"> Navigate Back to Index Page </a>
+                        </div>
+                        <div>
+                         <p>
+                         <ol>
+                                 <li> <a href = "Animal.html"> Part A - Animal </a></li>
+                                 <li> <a href = "calc.html"> Part B - Calculator </a></li>
+                        </ol>
+                         </p>
+                        </div>
+                </body>
+</html>
