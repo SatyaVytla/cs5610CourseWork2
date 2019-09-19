@@ -1,0 +1,41 @@
+/* styling of buttons and text as a grid layout was referred from https://freshman.tech/css-grid-calculator/ */
+
+.calculatorDisplay {
+  width: 400px;
+  height: 50px;
+  border: none;
+  background-color: #345672;
+  color: #fff;
+  text-align: right;
+  font-size: 2rem;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height:200;
+}
+.numbers{
+background-color: lightgray;
+font-size: 1.5rem;
+}
+.operators{
+background-color: #c79d9d;
+font-size: 1.5rem;
+}
+
+.display {
+	width: 250px;
+	height: 25px;
+
+}
+
+.calcTable {
+  border: 5px solid;
+  border-radius: 3px;
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  transform: translate(-10%, -10%);
+  width: 400px;
+}
